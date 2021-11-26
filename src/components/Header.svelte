@@ -3,10 +3,6 @@
 </script>
 
 <style lang="scss">
-  .pfp {
-    // border-radius: 50%;
-  }
-
   header {
     display: flex;
     padding: 5%;

@@ -1,10 +1,14 @@
 <script lang="ts">
   import Header from '../components/Header.svelte';
+  import Metadata from '../components/Metadata.svelte';
   import Project from "../components/Project.svelte";
+
+  let pageTitle = 'William Lane';
 </script>
 
 <svelte:head>
-  <title>William Lane</title>
+  <title>{pageTitle}</title>
+  <Metadata title="William Lane" description="William Lane portfolio site." />
 </svelte:head>
 
 <style lang="scss">
