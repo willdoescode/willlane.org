@@ -5,7 +5,9 @@
 <style lang="scss">
   header {
     display: flex;
-    padding: 5%;
+    padding-left: 5%;
+    padding-left: 5%;
+    padding-top: 5%;
     align-items: center;
     justify-content: center;
 
@@ -43,7 +45,6 @@
       }
     }
   }
-
 </style>
 
 <header>
@@ -59,6 +60,3 @@
     {/await}
   </div>
 </header>
-
-
-<slot />

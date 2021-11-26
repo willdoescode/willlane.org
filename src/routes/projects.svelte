@@ -1,5 +1,5 @@
 <script lang="ts">
-  import Header from '../components/Header.svelte';
+  import Nav from '../components/Nav.svelte';
   import Metadata from '../components/Metadata.svelte';
 </script>
 
@@ -8,6 +8,4 @@
   <Metadata title="Projects - William Lane" description="William Lane portfolio site." />
 </svelte:head>
 
-<Header>
-  <h1>Projects</h1>
-</Header>
+<Nav route="projects" />

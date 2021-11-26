@@ -1,7 +1,7 @@
 <script lang="ts">
   import Header from '../components/Header.svelte';
   import Metadata from '../components/Metadata.svelte';
-  import Project from "../components/Project.svelte";
+  import Nav from '../components/Nav.svelte';
 
   let pageTitle = 'William Lane';
 </script>
@@ -24,5 +24,5 @@
   }
 </style>
 
-<Header>
-</Header>
+<Nav route="/" />
+<Header />
