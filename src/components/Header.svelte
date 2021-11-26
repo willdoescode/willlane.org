@@ -4,7 +4,7 @@
 
 <style lang="scss">
   .pfp {
-    border-radius: 50%;
+    // border-radius: 50%;
   }
 
   header {
