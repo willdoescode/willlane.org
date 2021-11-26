@@ -35,6 +35,11 @@
       .name-and-quote {
         max-width: 50%;
         text-align: center;
+        font-size: 1em;
+      }
+
+      img {
+        width: 80%;
       }
     }
   }
