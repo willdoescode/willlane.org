@@ -1,7 +1,7 @@
 <script lang="ts">
   export let title: string;
   export let description: string;
-  export let image = "https://avatars.githubusercontent.com/u/53620720?v=4";
+  export let image = "https://i.imgur.com/NzvGgh8.jpg";
 </script>
 
 <meta property="og:site_name" content="William Lane" />
