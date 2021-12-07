@@ -1,5 +1,5 @@
 .nav {
-  font-family: "DM Sans", sans-serif;
+  font-family: "DM Serif Display", sans-serif;
   padding-top: 5%;
   display: flex;
   justify-content: center;
@@ -20,6 +20,7 @@
 }
 
 .active {
+  font-style: italic;
   color: blue !important;
 }
 
