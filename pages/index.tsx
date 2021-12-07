@@ -9,6 +9,7 @@ const Index: NextPage = () => {
   return (
     <>
       <Header /> 
+      <h1>Hello World</h1>
     </>
   )
 }
