@@ -54,21 +54,24 @@ const Projects: NextPage<ProjectsProps> = ({repos}: ProjectsProps) => {
     <>
       <Header />
 
-      {repos
-        .sort((a, b) => 
-            b.stargazers_count 
-            - a.stargazers_count
-        )
-        .map((repo) => 
-          <Project 
-            key={repo.name}
-            name={repo.name}
-            description={repo.description}
-            stars={repo.stargazers_count}
-            url={repo.html_url} 
-            isForked={repo.fork}
-          />
-        )}
+      <div className={styles.projects}>
+        {repos
+          .sort((a, b) => 
+              b.stargazers_count 
+              - a.stargazers_count
+          )
+          .map((repo) => 
+              <Project 
+                key={repo.name}
+                language={repo.language}
+                name={repo.name}
+                description={repo.description}
+                stars={repo.stargazers_count}
+                url={repo.html_url} 
+                isForked={repo.fork}
+              />
+          )}
+        </div>
     </>
   )
 }
