@@ -1,12 +1,11 @@
 import type { NextPage } from 'next';
-import type { QuoteProps } from '../../components/Quote';
 
 import Header from '../components/Header';
 import Quote from '../components/Quote';
-import styles from '../styles/Home.module.css';
 
+type QuoteProps = {quote: {author: string, content: string}};
 
-const Index: NextPage = ({quote}: QuoteProps) => {
+const Index: NextPage<QuoteProps> = ({quote}) => {
   return (
     <>
       <Header />
@@ -21,6 +20,5 @@ Index.getInitialProps = async (): Promise<QuoteProps> => {
 
   return { quote };
 }
-
 
 export default Index;
